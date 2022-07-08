@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.single-user{
+    @apply cursor-pointer
+}
+
+.user-image{
+    @apply w-14 h-14 rounded-full p-0.5 border-2 border-red-500
+}
+
+.username{
+    @apply text-xs w-14 text-center truncate
+} 
